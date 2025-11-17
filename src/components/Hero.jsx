@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/hero.css";
-import heroImage from "../../public/assets/images/hero-img.svg"; // change image name as needed
+import heroImage from "/assets/images/hero-img.svg"; // change image name as needed
 import ConsultationForm from "./ConsultationForm";
 
 const HeroSection = () => {
@@ -14,8 +14,8 @@ const HeroSection = () => {
           Design, <br />
           & Marketing
         </h1>
-    <ConsultationForm/>
-       
+        <ConsultationForm />
+
       </div>
     </div>
   );

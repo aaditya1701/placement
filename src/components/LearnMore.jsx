@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/LearnMore.css";
-import footerImg from "../../public/assets/images/footer-image.svg";
+import footerImg from "/assets/images/footer-image.svg";
 
 const LearnMore = () => {
   const [email, setEmail] = useState("");

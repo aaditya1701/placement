@@ -2,11 +2,11 @@ import React from "react";
 import "../styles/Footer.css";
 
 // Import your SVG icons and logo here
-import Logo from "../../public/assets/images/logo.svg";
-import TwitterIcon from "../../public/assets/icons/twitter.svg";
-import InstagramIcon from "../../public/assets/icons/instagram.svg";
-import FacebookIcon from "../../public/assets/icons/facebook.svg";
-import LinkedinIcon from "../../public/assets/icons/linkedin.svg";
+import Logo from "/assets/images/logo.svg";
+import TwitterIcon from "/assets/icons/twitter.svg";
+import InstagramIcon from "/assets/icons/instagram.svg";
+import FacebookIcon from "/assets/icons/facebook.svg";
+import LinkedinIcon from "/assets/icons/linkedin.svg";
 
 const Footer = () => {
   return (

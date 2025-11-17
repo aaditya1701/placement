@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navbar.css";
-import logo from "../../public/assets/Images/logo.svg"; // correct path
+import logo from "/assets/Images/logo.svg"; // correct path
 
 const Navbar = ({
   scrollHome,
