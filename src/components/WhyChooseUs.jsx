@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/WhyChooseUs.css";
+import "../styles/whyChooseUs.css";
 
 const WhyChooseUs = () => {
   return (
