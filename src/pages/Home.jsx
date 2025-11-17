@@ -5,7 +5,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import AboutUs from "../components/AboutUs";
 import Projects from "../components/Projects";
 import Testimonials from "../components/Testimonials";
-import LearnMore from "../components/Learnmore";
+import LearnMore from "../components/LearnMore";
 import Footer from "../components/Footer";
 
 const Home = () => {
