@@ -7,7 +7,7 @@ const Testimonials = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/testimonials")
+    fetch("https://placement-backend-q4mh.onrender.com/api/testimonials")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch testimonial data");
         return res.json();

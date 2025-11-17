@@ -7,7 +7,7 @@ const Projects = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/projects")   // FIXED BACKEND URL
+    fetch("https://placement-backend-q4mh.onrender.com/api/projects")   // FIXED BACKEND URL
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch project data");
         return res.json();
@@ -60,7 +60,7 @@ const Projects = () => {
               <img src={p.image} alt={p.projectName} className="project-image" />
 
               <h3 className="project-name">{p.title}</h3>
-              <p className="project-type">{(p.projectName || "Project Name") +", "+ (p.location || "Location")}</p>
+              <p className="project-type">{(p.projectName || "Project Name") + ", " + (p.location || "Location")}</p>
 
               <button className="project-btn">Learn More</button>
             </div>

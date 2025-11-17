@@ -9,7 +9,7 @@ const LearnMore = () => {
     if (!email) return alert("Please enter an email");
 
     try {
-      const res = await fetch("http://localhost:5000/api/subscribe", {
+      const res = await fetch("https://placement-backend-q4mh.onrender.com/api/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
