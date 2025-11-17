@@ -1,0 +1,76 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+position:fixed ;
+top:0px;
+left:0px;
+z-index:999;
+  background: white;
+padding: 10px;
+padding-left: 0px;
+}
+
+
+
+/* LEFT SIDE */
+.nav-left {
+  display: flex;
+  align-items: center;
+
+  padding-left: 10px;
+}
+
+.nav-logo {
+  height: 35px;
+}
+
+.brand-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* MENU LINKS */
+.nav-links {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  /* space between normal links */
+  list-style: none;
+  margin: 0;
+  padding-left: 30%;
+}
+
+
+.nav-links li {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-links li:hover {
+  color: #1d7bd5;
+  /* blue highlight like screenshot */
+}
+
+/* CONTACT BUTTON */
+.contact-btn {
+  background-color: #f47a1f;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-btn:hover {
+  background-color: #df6b18;
+}

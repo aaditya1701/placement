@@ -1,0 +1,140 @@
+.testimonials-section {
+  width: 100%;
+  padding: 60px 20px 80px;
+  text-align: center;
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e73be;
+  margin-bottom: 50px;
+}
+
+/* Error box */
+.error-box {
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: center;
+  width: 25%;
+  background: #ffeaea;
+  color: #b50000;
+  border: 1px solid #ffb3b3;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.retry-btn {
+  background: #ff7a2f;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.retry-btn:hover {
+  background: #ff5c00;
+}
+
+/* Grid layout */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* Testimonial card */
+.testimonial-card {
+  background: #fff;
+  width: 240px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.client-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 18px;
+  line-height: 1.5;
+  height: 85px;
+  overflow: hidden;
+}
+
+.client-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e73be;
+}
+
+.client-role {
+  color: #888;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+/* Skeletons */
+.skeleton {
+  width: 240px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.08);
+}
+
+.skeleton-avatar {
+  width: 60px;
+  height: 60px;
+  background: #e6e6e6;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+.skeleton-line {
+  height: 12px;
+  background: #e6e6e6;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.skeleton-line.long {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skeleton-line.short {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skeleton-avatar,
+.skeleton-line {
+  animation: skeleton-loading 1.4s infinite linear alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #e6e6e6;
+  }
+  100% {
+    background-color: #d5d5d5;
+  }
+}

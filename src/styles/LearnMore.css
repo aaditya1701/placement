@@ -1,0 +1,129 @@
+/* CTA Section Container */
+.learnmore {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Background image */
+.learnmore-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Dark overlay */
+.learnmore::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 260px;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+/* Content over CTA image */
+.learnmore-content {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.learnmore-content p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.learnmore-button {
+  padding: 12px 30px;
+  background: white;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.learnmore-button:hover {
+  background: #f0f0f0;
+}
+
+/* --- Blue Navigation Section --- */
+.learnmore-bluebar {
+  background: #006aff;
+  width: 100%;
+  padding: 30px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Navigation Links */
+.bluebar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.bluebar-links a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.bluebar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Subscribe Box */
+.bluebar-subscribe {
+  display: flex;
+}
+
+.bluebar-subscribe input {
+    color: #fff;
+  padding: 10px 15px;
+  border: solid white;
+  /* border-radius: 6px; */
+  min-width: 220px;
+  background: rgba(0, 0, 0, 0.0);
+}
+.bluebar-subscribe input:focus {
+outline: none;
+}
+
+.bluebar-subscribeUs{
+    color: #fff;
+    padding-right: 15px;
+}
+.bluebar-subscribe button {
+  padding: 10px 20px;
+  background: white;
+  border: none;
+  /* border-radius: 6px; */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bluebar-input::placeholder{
+    color:#fff;
+    }
+
+.bluebar-subscribe button:hover {
+  background: #e0e0e0;
+}

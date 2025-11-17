@@ -1,0 +1,105 @@
+.realtor-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  position: relative;
+  /* background: #ffffff; */
+   background: #f8fbff; 
+}
+
+/* LEFT SIDE TEXT */
+.left-content {
+  width: 40%;
+  padding-top: 40px;
+}
+
+.left-content h2 {
+  font-size: 36px;
+  color: #2a66f5;
+  margin-bottom: 15px;
+}
+
+.left-content p {
+  width: 80%;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* RIGHT IMAGES (LAYERED CIRCLES) */
+.right-images {
+  position: relative;
+  width: 50%;
+}
+
+.big-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #e8f0ff;
+}
+
+.small-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  border: 6px solid #e8f0ff;
+}
+
+/* Position the small images */
+.img1 {
+  top: -20px;
+  right: 0;
+}
+
+.img2 {
+  bottom: -20px;
+  right: 20px;
+}
+
+/* ICONS + SHAPES (Decorative) */
+.icon {
+  position: absolute;
+  width: 28px;
+}
+
+.icon1 {
+  top: 80px;
+  right: 45%;
+}
+
+.icon2 {
+  bottom: 100px;
+  right: 50%;
+}
+
+.icon3 {
+  width: 15%;
+  bottom: -10%;
+  right: 79%;
+}
+
+.icon4 {
+width: 15%;
+  bottom: -30%;
+  left:0%;
+}
+
+.icon5 {
+  width: 7%;
+top:10%;
+left:1%;
+}
+
+.shape {
+  position: absolute;
+  width: 50%;
+  opacity: 1;
+}
+
+.shape1 {
+  bottom: -100px;
+  left: 40%;
+}
