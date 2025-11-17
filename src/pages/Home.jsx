@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import RealtorSection from "../components/realtorsection";
 import WhyChooseUs from "../components/WhyChooseUs";
 import AboutUs from "../components/AboutUs";
 import Projects from "../components/Projects";
