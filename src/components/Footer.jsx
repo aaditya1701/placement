@@ -6,7 +6,7 @@ import Logo from "/assets/images/logo.svg";
 import TwitterIcon from "/assets/icons/twitter.svg";
 import InstagramIcon from "/assets/icons/instagram.svg";
 import FacebookIcon from "/assets/icons/facebook.svg";
-import LinkedinIcon from "/assets/icons/linkedin.svg";
+import LinkedinIcon from "/assets/icons/Linkedin.svg";
 
 const Footer = () => {
   return (
